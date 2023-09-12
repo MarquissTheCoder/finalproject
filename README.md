@@ -1,6 +1,6 @@
 # finalproject
 CS50 Student Exchange
-Video Demo: ![CS50 Student Exchange Demo](https://www.youtube.com/watch?v=vTaNlAO9BJg)
+Video Demo: [CS50 Student Exchange Video Demo](https://www.youtube.com/watch?v=vTaNlAO9BJg).
 
 CS50 Student Exchange
 
@@ -27,7 +27,4 @@ CS50 Student Exchange is a web application designed to bring together individual
 
 - **Searching:** After successful login, access your personal search page. You can initiate a search and receive instant results. If no match is found, the system will let you know that your information is stored for future matching.
 
-### Demo
-
-For a visual demonstration of this project, please check out the [CS50 Student Exchange Video Demo](https://www.youtube.com/watch?v=vTaNlAO9BJg).
 
