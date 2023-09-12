@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block body %}
+<form action="/search" method="post">
+    <div class="header-of-personal" style="text-align: center;">
+        <h2>Searching Page</h2>
+    </div>
+    <div class="vertical-table">
+        <div class="row">
+            <div class="cell">You're Welcome, {{ info[0]["name"] }}</div>
+        </div>
+        <div class="row">
+            <div class="cell">You are signed in. You Will Be a Guide Of <br>Someone in {{ info[0]["knownLanguage"] }} </div>
+        </div>
+        <div class="last_row">
+            <div class="cell">Beginning of the learning path {{ info[0]["wantedLanguage"] }}. When <br>You Click the Button, Adventure Will Begins.</div>
+        </div>
+    </div>
+    <input type="submit" value="Look For Exchange Student" class="replaceSearchButton">
+    <img src="static/search.png" alt="Textbox Icon" class="icon replaceSearchButton">
+</form>
+{% endblock %}

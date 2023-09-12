@@ -1,0 +1,36 @@
+common_languages = [
+    "English",
+    "Chinese",
+    "Hindi",
+    "Spanish",
+    "French",
+    "Arabic",
+    "Bengali",
+    "Russian",
+    "Portuguese",
+    "Indonesian",
+    "Urdu",
+    "Japanese",
+    "Punjabi",
+    "German",
+    "Javanese",
+    "Malay",
+    "Swahili",
+    "Tamil",
+    "Telugu",
+    "Vietnamese",
+    "Korean",
+    "Italian",
+    "Turkish",
+    "Thai",
+    "Gujarati",
+    "Polish",
+    "Ukrainian",
+    "Romanian",
+    "Dutch",
+    "Marathi",
+]
+
+common_languages = sorted(common_languages)
+
+

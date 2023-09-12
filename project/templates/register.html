@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block head %}
+    <link rel="stylesheet" href="static/styles.css">
+{% endblock %}
+
+{% block body %}
+<form action="/" method="get">
+    <input type="submit" value="Homepage" class="home_button">
+</form>
+<div class="registration-container">
+    <header class="my_title">Registration On Load...</header>
+    <div class="center-box registration-box">
+        <form action="/personal" method="post">
+            <div class="input-container">
+                <img src="static/person-icon.png" alt="Textbox Icon" class="icon">
+                <input placeholder="Name & Surname" name="name" type="text">
+            </div>
+            <div class="input-container">
+                <img src="static/insta-icon.png" alt="Select Icon" class="icon">
+                <input placeholder="Instagram Account Name" name="account_name" type="text">
+            </div>
+            <div class="input-container">
+                <img src="static/lang-icon.png" alt="Textbox Icon" class="icon">
+                <select name="lang1" style="height: 35px;">
+                    <option disabled selected>Language you're highly skilled in.</option>
+                    {% for language in languages %}
+                        <option>{{ language }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="input-container">
+                <img src="static/world-icon.png" alt="Textbox Icon" class="icon">
+                <select name="lang2" style="height: 35px;">
+                    <option disabled selected>Language you know little and want to improve.</option>
+                    {% for language in languages %}
+                        <option>{{ language }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <input value="Save/Search Me into the System" type="submit">
+        </form>
+    </div>
+</div>
+{% endblock %}
+

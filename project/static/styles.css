@@ -1,0 +1,314 @@
+.upper-right-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.registration-box {
+    border: 1px solid #c6a5a5;
+    transform: translateY(+18px);
+    padding: 17px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #D5D6EA;
+}
+
+
+input[type="text"], select {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #957DAD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.page{
+    background: #FCF5E5;
+}
+
+.my_title{
+    background-color: #9ca6d9;
+    font-family: 'IntroScript';
+    font-size: xx-large;
+    text-align: center;
+    padding: 12px;
+    transform: translateY(+2px);
+}
+
+/* CSS */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    transform: translateY(-4px);
+    width: 35px; /* Adjust the size as needed */
+    height: 35px; /* Adjust the size as needed */
+    margin-right: 10px; /* Adjust the spacing between the icon and the form field */
+}
+
+.input-with-icon {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+}
+
+/* Additional styling for form elements */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'IntroScript'; /* Choose a name for the font */
+    src: url('my_font.otf') format('opentype'); /* Adjust the path and format */
+}
+
+@font-face {
+    font-family: 'Laire'; /* Choose a name for the font */
+    src: url('LaireSans-Bold.otf') format('opentype'); /* Adjust the path and format */
+}
+
+.registration-container {
+    background-color: #D5D6EA;
+    border: 1px solid black; /* Flat black line separator */
+    padding: 18px; /* Add padding for spacing */
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    margin-bottom: 20px;
+}
+
+.my_titles {
+    font-family: 'IntroScript';
+    background-color: #9ca6d9;
+    font-family: 'IntroScript';
+    font-size: xx-large;
+    padding: 8px;
+    text-align: center;
+    line-height: 1.5; /* Adjust this value to control the line height */
+    margin-bottom: 0; /* Add margin to separate from the form */
+}
+
+.paragraph_shape{
+    background-color: #9ca6d9;
+    text-align: center;
+    font-family: 'Laire';
+    padding: 10px;
+    margin-top: 0;
+    line-height: 1.5;
+    font-size: larger;
+    transform: translateY(+20px);
+}
+
+.title-container {
+    display: flex; /* Use flexbox for alignment */
+    padding: 5px;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    margin-bottom: 20px; /* Add margin to separate from other content */
+}
+
+/* CSS */
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Change to your desired button color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    transform: translate(500px, 20px);
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Change to a slightly darker shade on hover */
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.my-image {
+    display: block; /* Ensures block-level behavior */
+    transform: translate(-170px, 20px);
+    max-width: 325px; /* Adjust the maximum width as needed */
+    width: 100%; /* Ensures the image scales with its container */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+.sad_para{
+    font-family: 'Laire';
+    background-color: #836953;
+    font-size: x-large;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.home_button{
+    background-color: #836953;
+    position: absolute;
+    top: 10px; /* Adjust the top value to control vertical placement */
+    right: 10px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.vertical-table {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transform: translate(-165px, 104px);
+}
+
+/* Style for table rows */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 25px 0;
+}
+
+.last_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;    
+}
+
+/* Style for table cells */
+.cell {
+    flex: 2;
+    padding: 0 10px;
+    font-family: 'Laire';
+    font-size: 18px;
+}
+
+.happy-image {
+    display: block; /* Ensures block-level behavior */
+    transform: translate(-250px, 102px);
+    max-width: 500px; /* Adjust the maximum width as needed */
+    width: 100%; /* Ensures the image scales with its container */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+.last_header{
+    font-family: "IntroScript";
+    font-size: 40px;
+    transform: translate(550px, -200px);
+}
+
+.header_title{
+    font-family: "IntroScript";
+    transform: translate(0px, -200px);
+}
+
+.header-of-joey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    font-family: "IntroScript";
+    margin :0;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.custom-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.notFoundPara{
+    background-color: #bc8b63;
+    transform: translate(240px, -100px);
+    font-family: "Laire";
+    font-weight: 300;
+    font-size: 22px;
+    font-style: italic;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sadJoey{
+    max-width: 400px;
+    transform: translate(-200px, 120px);
+}
+
+.replaceSearchButton{
+    transform: translate(380px, -65px);
+}
+
+.header-of-personal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    font-family: "IntroScript";
+    margin :0;
+    font-size: 35px;
+    margin-top: 50px;
+    transform: translate(-500px, 60px);
+}
+

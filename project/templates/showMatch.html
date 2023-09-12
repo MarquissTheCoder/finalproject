@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block body %}
+<form action="/" method="get">
+    <input type="submit" value="Homepage" class="home_button">
+</form>
+<header class="last_header">Match Found Successfully</header>
+<img class="happy-image" style="margin-left: 100px;" src="static/happy.gif" alt="We are sad!">
+<div class="vertical-table">
+    <div class="row">
+        <div class="cell">The Person You Matched:<br> {{ finded_match["name"] }}</div>
+    </div>
+    <div class="row">
+        <div class="cell">{{ finded_match["name"] }}'s Native Language:<br> {{ finded_match["knownLanguage"] }}</div>
+    </div>
+    <div class="last_row">
+        <div class="cell">Instagram Address of Student:<br> -{{ finded_match["instaPage"] }}-</div>
+    </div>
+</div>
+<p></p>
+{% endblock %}
