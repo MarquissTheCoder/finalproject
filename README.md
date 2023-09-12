@@ -1,11 +1,7 @@
-# finalproject
-CS50 Student Exchange
-Video Demo: [CS50 Student Exchange Video Demo](https://www.youtube.com/watch?v=vTaNlAO9BJg).
-
-CS50 Student Exchange
-
-CS50 Student Exchange Demo
 # CS50 Student Exchange
+
+
+Video Demo: [CS50 Student Exchange Video Demo](https://www.youtube.com/watch?v=vTaNlAO9BJg).
 
 ## Description
 
